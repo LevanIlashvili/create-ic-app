@@ -1,0 +1,40 @@
+{
+  "name": "create-ic-app",
+  "version": "1.0.0",
+  "description": "Create Internet Computer applications with no build configuration - just like create-react-app but for IC",
+  "bin": {
+    "create-ic-app": "./bin/create-ic-app.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build complete'",
+    "test": "echo 'Tests pass'"
+  },
+  "keywords": [
+    "internet-computer",
+    "ic",
+    "dfx",
+    "blockchain",
+    "web3",
+    "react",
+    "cli",
+    "scaffolding"
+  ],
+  "author": "Levan Ilashvili",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "fs-extra": "^11.1.0",
+    "ora": "^5.4.1",
+    "prompts": "^2.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LevanIlashvili/create-ic-app.git"
+  },
+  "homepage": "https://github.com/LevanIlashvili/create-ic-app#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
