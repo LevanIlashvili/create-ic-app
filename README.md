@@ -226,6 +226,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
+- **HUGE thanks to [@kristoferlund](https://github.com/kristoferlund/)** - This template is based on his original work, tweaked and enhanced for the CLI experience. Check out his amazing [ic-vite-react-next](https://github.com/kristoferlund/ic-vite-react-next) and other IC tools!
 - Inspired by [create-react-app](https://create-react-app.dev/)
 - Built for the [Internet Computer](https://internetcomputer.org/) community
 - Made with ❤️ for Web3 developers
