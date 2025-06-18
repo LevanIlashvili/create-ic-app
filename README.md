@@ -5,7 +5,7 @@
 Create Internet Computer applications with zero configuration - just like `create-react-app` but for the IC ecosystem.
 
 ```bash
-npx create-ic-app my-awesome-app
+npx @blockcraft/create-ic-app my-awesome-app
 cd my-awesome-app
 ./deploy.sh
 ```
@@ -36,7 +36,7 @@ npm create vite@latest frontend -- --template react-ts
 **After (With Create IC App):**
 ```bash
 # 🎉 Zero-config setup in 30 seconds
-npx create-ic-app my-app
+npx @blockcraft/create-ic-app my-app
 cd my-app
 ./deploy.sh
 ```
@@ -47,10 +47,10 @@ cd my-app
 
 ```bash
 # Interactive mode - prompts for project name
-npx create-ic-app
+npx @blockcraft/create-ic-app
 
 # Direct mode - specify project name
-npx create-ic-app my-ic-app
+npx @blockcraft/create-ic-app my-ic-app
 
 # Navigate and deploy
 cd my-ic-app
@@ -92,16 +92,16 @@ Every project created includes:
 
 ### Basic Usage
 ```bash
-npx create-ic-app my-first-dapp
+npx @blockcraft/create-ic-app my-first-dapp
 ```
 
 ### Advanced Usage
 ```bash
 # Create app in specific directory
-npx create-ic-app ./projects/my-dapp
+npx @blockcraft/create-ic-app ./projects/my-dapp
 
 # Create app with specific name
-npx create-ic-app "my-awesome-web3-app"
+npx @blockcraft/create-ic-app "my-awesome-web3-app"
 ```
 
 ## 🏗️ What Gets Created
@@ -128,7 +128,7 @@ my-ic-app/
 
 ```bash
 # 1. Create your app
-npx create-ic-app my-app
+npx @blockcraft/create-ic-app my-app
 cd my-app
 
 # 2. Start local development
@@ -235,5 +235,5 @@ MIT License - see [LICENSE](LICENSE) file for details.
 **Start building on the Internet Computer today!** 🎯
 
 ```bash
-npx create-ic-app my-next-big-idea
+npx @blockcraft/create-ic-app my-next-big-idea
 ``` 

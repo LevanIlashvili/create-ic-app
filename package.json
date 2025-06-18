@@ -1,6 +1,6 @@
 {
-  "name": "create-ic-app",
-  "version": "1.0.0",
+  "name": "@blockcraft/create-ic-app",
+  "version": "1.0.1",
   "description": "Create Internet Computer applications with no build configuration - just like create-react-app but for IC",
   "bin": {
     "create-ic-app": "./bin/create-ic-app.js"
